@@ -3,11 +3,11 @@ Summary:	Drupal Smileys Module
 Summary(pl):	Modu³ Smileys dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
-Release:	0.3
+Release:	0.4
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://drupal.org/files/projects/%{modname}-%{version}.tar.gz
-# Source0-md5:	145af413c619cd922601a1c1aae454b3
+# Source0-md5:	d6381efeb83f702138c3e125b1d04b84
 URL:		http://drupal.org/project/smileys
 BuildRequires:	rpmbuild(macros) >= 1.194
 Requires:	drupal >= 4.6.0
