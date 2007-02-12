@@ -1,6 +1,6 @@
 %define		modname smileys
 Summary:	Drupal Smileys Module
-Summary(pl.UTF-8):   Moduł Smileys dla Drupala
+Summary(pl.UTF-8):	Moduł Smileys dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.4
@@ -34,7 +34,7 @@ zdefiniować nieograniczoną liczbę własnych.
 
 %package examples
 Summary:	Example Smileys for Smileys Module
-Summary(pl.UTF-8):   Przykładowe uśmieszki dla modułu Smileys
+Summary(pl.UTF-8):	Przykładowe uśmieszki dla modułu Smileys
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
