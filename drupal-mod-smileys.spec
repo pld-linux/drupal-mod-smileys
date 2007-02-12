@@ -1,6 +1,6 @@
 %define		modname smileys
 Summary:	Drupal Smileys Module
-Summary(pl):	Modu³ Smileys dla Drupala
+Summary(pl.UTF-8):   ModuÅ‚ Smileys dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.4
@@ -26,15 +26,15 @@ smileys (or 'emoticons') on a Drupal site. It comes with a set of
 example smileys, but you can define an unlimited amount of custom
 smileys as well.
 
-%description -l pl
-To jest prosty filtr u¶mieszków pozwalaj±cy na ³atwe u¿ywanie
-graficznych u¶mieszków ("emotikonów") na serwisie Drupala. Jest
-dostarczany z zestawem przyk³adowych u¶mieszków, ale mo¿na tak¿e
-zdefiniowaæ nieograniczon± liczbê w³asnych.
+%description -l pl.UTF-8
+To jest prosty filtr uÅ›mieszkÃ³w pozwalajÄ…cy na Å‚atwe uÅ¼ywanie
+graficznych uÅ›mieszkÃ³w ("emotikonÃ³w") na serwisie Drupala. Jest
+dostarczany z zestawem przykÅ‚adowych uÅ›mieszkÃ³w, ale moÅ¼na takÅ¼e
+zdefiniowaÄ‡ nieograniczonÄ… liczbÄ™ wÅ‚asnych.
 
 %package examples
 Summary:	Example Smileys for Smileys Module
-Summary(pl):	Przyk³adowe u¶mieszki dla modu³u Smileys
+Summary(pl.UTF-8):   PrzykÅ‚adowe uÅ›mieszki dla moduÅ‚u Smileys
 Group:		Applications/WWW
 Requires:	%{name} = %{version}-%{release}
 
@@ -45,12 +45,12 @@ A word from Author:
 Please don't rip the example smileys and use them without this
 module. I spent quite some time creating those little buggers.
 
-%description examples -l pl
-Przyk³adowe u¶mieszki dla modu³u Smileys.
+%description examples -l pl.UTF-8
+PrzykÅ‚adowe uÅ›mieszki dla moduÅ‚u Smileys.
 
-S³owo od autora:
-Proszê nie wyci±gaæ przyk³adowych u¶mieszków i nie u¿ywaæ ich bez tego
-modu³u. Spêdzi³em trochê czasu na ich tworzeniu.
+SÅ‚owo od autora:
+ProszÄ™ nie wyciÄ…gaÄ‡ przykÅ‚adowych uÅ›mieszkÃ³w i nie uÅ¼ywaÄ‡ ich bez tego
+moduÅ‚u. SpÄ™dziÅ‚em trochÄ™ czasu na ich tworzeniu.
 
 %prep
 %setup -q -n %{modname}
